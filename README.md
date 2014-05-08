@@ -1,10 +1,12 @@
 # Overview
 
-**django_pagess** provides a set of facilities that allow relatively unskilled users to
+**DjangoPages** provides a set of facilities that allow technically proficient users to
 
 * create web pages with either a WYSIWYG editor, markdown, or reStructuredText,
 * includes various charts, tables, forms, etc. in those pages
-* populate the charts, tables, etc with data based on Django/python code snippets and form inputs
+* populate the charts, tables, etc with
+    * data based on Django/python code snippets and form inputs
+    * arbitrary Python code
 
 # License
 
