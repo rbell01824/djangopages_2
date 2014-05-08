@@ -24,7 +24,7 @@ __email__ = "rbell01824@gmail.com"
 ########################################################################################################################
 
 """
-WSGI config for djangopages project.
+WSGI config for djangopages_demo project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -33,7 +33,7 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangopages.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangopages_demo.settings")
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()

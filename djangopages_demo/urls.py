@@ -32,8 +32,8 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.views import login
 
-from djangopages.views import index
-# from djangopages.views import GraphPageListView               # fixme:
+from djangopages_demo.views import index
+# from djangopages_demo.views import GraphPageListView               # fixme:
 
 urlpatterns = patterns('',
 

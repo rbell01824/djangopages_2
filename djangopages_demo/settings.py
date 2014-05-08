@@ -24,7 +24,7 @@ __email__ = "rbell01824@gmail.com"
 ########################################################################################################################
 
 """
-Django settings for djangopages project.
+Django settings for djangopages_demo project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -64,7 +64,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # 'debug_toolbar',
     'django_extensions',
-    'djangopages',
+    'djangopages_demo',
     # 'graphpages',       # fixme:
     'chartkick',
     'chartkick_demo',
@@ -84,9 +84,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'djangopages.urls'
+ROOT_URLCONF = 'djangopages_demo.urls'
 
-WSGI_APPLICATION = 'djangopages.wsgi.application'
+WSGI_APPLICATION = 'djangopages_demo.wsgi.application'
 
 
 # Database
